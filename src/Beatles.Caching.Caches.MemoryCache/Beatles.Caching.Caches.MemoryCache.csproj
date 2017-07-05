@@ -38,7 +38,7 @@
       <HintPath>..\packages\Autofac.4.0.0\lib\net451\Autofac.dll</HintPath>
     </Reference>
     <Reference Include="Beatles.Caching, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Beatles.Caching.1.0.0\lib\netstandard1.4\Beatles.Caching.dll</HintPath>
+      <HintPath>..\..\packages\Beatles.Caching.1.0.0\lib\netstandard1.4\Beatles.Caching.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
