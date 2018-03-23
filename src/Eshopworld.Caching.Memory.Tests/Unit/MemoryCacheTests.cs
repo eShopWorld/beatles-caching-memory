@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Eshopworld.Caching.Core;
 using Xunit;
 
-namespace Beatles.Caching.Caches.MemoryCache.Tests.Unit
+namespace Eshopworld.Caching.Memory.Tests.Unit
 {
     public class MemoryCacheTests
     {
@@ -16,7 +17,7 @@ namespace Beatles.Caching.Caches.MemoryCache.Tests.Unit
 
             cacheFactory = new MemoryCacheFactory();
 
-            stringCache = (MemoryCache<string>)cacheFactory.CreateDefault<string>();
+            stringCache = (MemoryCache<string>) cacheFactory.CreateDefault<string>();
             stringCache.Remove(CacheKey);
         }
 

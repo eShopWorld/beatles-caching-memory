@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Caching;
 using System.Threading.Tasks;
+using Eshopworld.Caching.Core;
 
-namespace Beatles.Caching.Caches.MemoryCache
+namespace Eshopworld.Caching.Memory
 {
     /// <summary>
-    /// implements <see cref="MemoryCache"/> as a cache. Items added to the cache will expire after the specified duration in <see cref="CacheItem"/>
+    /// implements <see cref="MemoryCache"/> as a cache. Items added to the cache will expire after the specified duration in <see cref="CacheItem{T}"/>
     /// </summary>
     /// <typeparam name="T">Type of object to store</typeparam>
     public class MemoryCache<T> : ILocalCache<T>

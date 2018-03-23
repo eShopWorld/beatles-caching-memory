@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Beatles.Caching.Caches.MemoryCache.Tests
+namespace Eshopworld.Caching.Memory.Tests
 {
     public class SimpleObject : IEquatable<SimpleObject>
     {

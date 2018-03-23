@@ -1,7 +1,8 @@
 ﻿using System;
-using Xunit;    
+using Eshopworld.Caching.Core;
+using Xunit;
 
-namespace Beatles.Caching.Caches.MemoryCache.Tests.Unit
+namespace Eshopworld.Caching.Memory.Tests.Unit
 {
     public class MemoryCacheFactoryTests
     {
