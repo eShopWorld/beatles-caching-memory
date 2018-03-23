@@ -1,4 +1,4 @@
-# Beatles.Caching.Memory
+# Caching.Memory
 
 A adaptor for an in memory implementation for the core caching framework
 
